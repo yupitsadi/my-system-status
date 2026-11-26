@@ -1,0 +1,9 @@
+{
+    "uuid": "my-system-status@aditya",
+    "name": "My System Status",
+    "description": "System status, Phone Box connection and AI limits.",
+    "version": "2.0",
+    "max-instances": "1",
+    "prevent-decorations": true,
+    "author": "yupitsadi"
+}

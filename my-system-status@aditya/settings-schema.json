@@ -1,0 +1,46 @@
+{
+    "head-look": { "type": "header", "description": "Look" },
+    "scale": {
+        "type": "scale",
+        "default": 1.0,
+        "min": 0.8,
+        "max": 1.6,
+        "step": 0.05,
+        "description": "Size",
+        "tooltip": "Scale the whole card up or down."
+    },
+    "accent": {
+        "type": "colorchooser",
+        "default": "rgb(79,124,255)",
+        "description": "Accent color"
+    },
+    "bg-opacity": {
+        "type": "scale",
+        "default": 0.92,
+        "min": 0.4,
+        "max": 1.0,
+        "step": 0.02,
+        "description": "Background opacity"
+    },
+    "animations": {
+        "type": "switch",
+        "default": true,
+        "description": "Animations"
+    },
+    "head-behaviour": { "type": "header", "description": "Behaviour" },
+    "refresh": {
+        "type": "spinbutton",
+        "default": 15,
+        "min": 5,
+        "max": 300,
+        "step": 5,
+        "units": "seconds",
+        "description": "Refresh every"
+    },
+    "start-tab": {
+        "type": "combobox",
+        "default": "system",
+        "description": "Tab shown at start",
+        "options": { "System": "system", "AI Limits": "ai", "Phone Box": "phone" }
+    }
+}
